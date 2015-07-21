@@ -54,7 +54,8 @@ ingameinfoxml.tag.category.riding.name=Reiten
 ingameinfoxml.tag.category.time.name=Zeit
 ingameinfoxml.tag.category.world.name=Welt
 ingameinfoxml.tag.category.bloodmagic.name=Blood Magic
-ingameinfoxml.tag.category.simplyjetpacks.name=einfacher Jetpack
+ingameinfoxml.tag.category.simplyjetpacks.name=Simply Jetpacks
+ingameinfoxml.tag.category.terrafirmacraft.name=TerraFirmaCraft
 ingameinfoxml.tag.category.thaumcraft.name=Thaumcraft
 
 # gui - tag list - formatting tags
@@ -155,7 +156,11 @@ ingameinfoxml.tag.bootslargeicon.desc=Großer Stiefelicon.
 
 # gui - tag list - player general
 ingameinfoxml.tag.light.desc=Lichtpegel an der aktuellen Position.
+ingameinfoxml.tag.lighteye.desc=Lichtpegel an der aktuellen Position (Augenhöhe).
 ingameinfoxml.tag.lightnosun.desc=Lichtpegel an der aktuellen Position ohne Sonnenlicht.
+ingameinfoxml.tag.lightnosuneye.desc=Lichtpegel an der aktuellen Position ohne Sonnenlicht (Augenhöhe).
+ingameinfoxml.tag.lightsun.desc=Sonnenlichtpegel an der aktuellen Position.
+ingameinfoxml.tag.lightsuneye.desc=Sonnenlichtpegel an der aktuellen Position (Augenhöhe).
 ingameinfoxml.tag.score.desc=Spieler Score.
 ingameinfoxml.tag.gamemode.desc=Spieler Gamemode Name.
 ingameinfoxml.tag.gamemodeid.desc=Spieler Gamemode ID.
@@ -190,9 +195,11 @@ ingameinfoxml.tag.chunkoffsetx.desc=Spieler X Chunk Offset Koordinate (0-15).
 ingameinfoxml.tag.chunkoffsetz.desc=Spieler Z Chunk Offset Koordinate (0-15).
 ingameinfoxml.tag.x.desc=Spieler X Koordinate.
 ingameinfoxml.tag.y.desc=Spieler Y Koordinate.
+ingameinfoxml.tag.yeye.desc=Spieler Y Koordinate (Augenhöhe).
 ingameinfoxml.tag.z.desc=Spieler Z Koordinate.
 ingameinfoxml.tag.xi.desc=Spieler X Koordinate aufgerundete ganze Zahl.
 ingameinfoxml.tag.yi.desc=Spieler Y Koordinate aufgerundete ganze Zahl.
+ingameinfoxml.tag.yeyei.desc=Spieler Y Koordinate aufgerundete ganze Zahl (Augenhöhe).
 ingameinfoxml.tag.zi.desc=Spieler Y Koordinate aufgerundete ganze Zahl.
 ingameinfoxml.tag.speed.desc=Spielergeschwindigkeit.
 ingameinfoxml.tag.speedx.desc=Spielergeschwindigkeit entlang der x-Achse.
@@ -236,6 +243,7 @@ ingameinfoxml.tag.worldsizemb.desc=Weltgröße in MiB.
 ingameinfoxml.tag.seed.desc=Welt-Seed.
 ingameinfoxml.tag.difficulty.desc=Welt Schwierigkeit Bezeichnung.
 ingameinfoxml.tag.difficultyid.desc=Welt Schwierigkeit ID.
+ingameinfoxml.tag.localdifficulty.desc=Lokale Schwierigkeit.
 ingameinfoxml.tag.dimension.desc=Dimensionsnamen.
 ingameinfoxml.tag.dimensionid.desc=Dimensions ID.
 ingameinfoxml.tag.biome.desc=Biome Name.
@@ -247,8 +255,9 @@ ingameinfoxml.tag.snowing.desc=§etrue§r wenn es schneit, sonst §efalse§r.
 ingameinfoxml.tag.nextweatherchange.desc=Zeit bis zum nächsten Wetterwechsel.
 ingameinfoxml.tag.slimes.desc=§etrue§r if wenn der aktuelle Chunk ein Slimechunk ist, sonst §efalse§r.
 ingameinfoxml.tag.hardcore.desc=§etrue§r wenn die Welt im Hard-Mode läuft, sonst §efalse§r.
-ingameinfoxml.tag.temperature.desc=Biome Temperatur.
-ingameinfoxml.tag.humidity.desc=Biome Luftfeuchtigkeit.
+ingameinfoxml.tag.temperature.desc=Biom Temperatur.
+ingameinfoxml.tag.localtemperature.desc=Biom Temperatur an deiner aktuellen Position.
+ingameinfoxml.tag.humidity.desc=Biom Luftfeuchtigkeit.
 
 # gui - tag list - integration - blood magic
 ingameinfoxml.tag.bmlp.desc=Aktuell §4Essence§r.
@@ -262,6 +271,18 @@ ingameinfoxml.tag.sjenabled.desc=§etrue§r wenn der Jetpack aktiv ist, sonst §
 ingameinfoxml.tag.sjhover.desc=§etrue§r wenn der Jetpack im Hover-Modus ist, sonst §efalse§r.
 
 # gui - tag list - integration - terrafirmacraft
+ingameinfoxml.tag.tfcrainfall.desc=Regen an deiner aktuellen Position.
+ingameinfoxml.tag.tfctemperature.desc=Temperatur an deiner aktuellen Position.
+ingameinfoxml.tag.tfcaveragetemperature.desc=Jahresdurchschnittstemperatur an Ihrer aktuellen Position.
+ingameinfoxml.tag.tfctemperatureheatsources.desc=Temperatur mit externen Wärmequellen an Ihrer aktuellen Position.
+ingameinfoxml.tag.tfcseason.desc=Saison.
+ingameinfoxml.tag.tfcdate.desc=Datum.
+ingameinfoxml.tag.tfcday.desc=Tag.
+ingameinfoxml.tag.tfcmonth.desc=Monat.
+ingameinfoxml.tag.tfcyear.desc=Jahr.
+ingameinfoxml.tag.fmtskill.desc=%s Information.
+ingameinfoxml.tag.fmtskillrank.desc=Aktueller Rang für %s.
+ingameinfoxml.tag.fmtskillprogress.desc=Aktueller Vortschritt in %s.
 
 # gui - tag list - integration - thaumcraft
 ingameinfoxml.tag.tcwarpperm.desc=Permanenter Spieler-Warp.
